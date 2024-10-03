@@ -12,5 +12,5 @@ process.chdir(logsDir);
 for (let i = 0; i < 10; i++) {
     const fileName = `log${i}.txt`;
     fs.writeFileSync(fileName, `This is log file ${i}`);
-    console.log(fileName); // Output file names to console
+    console.log(fileName);
 }
